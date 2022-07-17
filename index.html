@@ -21,7 +21,7 @@
 	<!-- header -->
 	<header class="header">
 		<div class="container header__container">
-			<a class="logo" href="WebStudio"> <span class="logo__label">Web</span>Studio</a>
+			<a class="logo header__logo" href="WebStudio"> Web<span class="header__logo--color">Studio</span></a>
 			<nav class="nav">
 				<ul class="nav__list nav__list--location">
 					<li class="nav__item">
@@ -170,19 +170,19 @@
 					<li class="about__item">
 						<img src="./images/boxone.jpg" alt="робота з клавиатурой" width="370" height="294" />
 						<div class="overlay">
-							<p class="overlay__desk">Десктопные приложения</p>
+							<p class="overlay__descr">Десктопные приложения</p>
 						</div>
 					</li>
 					<li class="about__item">
 						<img src="./images/boxtwo.jpg" alt="робота з телефонам" width="370" height="294" />
 						<div class="overlay">
-							<p class="overlay__desk">Мобильные приложения</p>
+							<p class="overlay__descr">Мобильные приложения</p>
 						</div>
 					</li>
 					<li class="about__item">
 						<img src="./images/boxthree.jpg" alt="робота з планшетом" width="370" height="294" />
 						<div class="overlay">
-							<p class="overlay__desk">Дизайнерские решения</p>
+							<p class="overlay__descr">Дизайнерские решения</p>
 						</div>
 					</li>
 				</ul>
@@ -196,7 +196,7 @@
 					<li class="team__item card-set__item">
 						<img src="./images/proddesigner.jpg" alt="продакт дизайнер" width="270" height="260" />
 						<h3 class="team__name">Игорь Демьяненко</h3>
-						<p class="team__desk" lang="en">Product Designer</p>
+						<p class="team__descr" lang="en">Product Designer</p>
 						<ul class="social-media social-media--position">
 							<li class="social-media__item">
 								<a class="social-media__link" href="" target="_blank" rel="noopener noreferrer"
@@ -228,7 +228,7 @@
 					<li class="team__item card-set__item">
 						<img src="./images/frontend.jpg" alt="фронтенд розробник" width="270" height="260" />
 						<h3 class="team__name">Ольга Репина</h3>
-						<p class="team__desk" lang="en">Frontend Developer</p>
+						<p class="team__descr" lang="en">Frontend Developer</p>
 						<ul class="social-media">
 							<li class="social-media__item">
 								<a class="social-media__link" href="" target="_blank" rel="noopener noreferrer"
@@ -260,7 +260,7 @@
 					<li class="team__item card-set__item">
 						<img src="./images/marketing.jpg" alt="маркетолог" width="270" height="260" />
 						<h3 class="team__name">Николай Тарасов</h3>
-						<p class="team__desk" lang="en">Marketing</p>
+						<p class="team__descr" lang="en">Marketing</p>
 						<ul class="social-media">
 							<li class="social-media__item">
 								<a class="social-media__link" href="" target="_blank" rel="noopener noreferrer"
@@ -292,7 +292,7 @@
 					<li class="team__item card-set__item">
 						<img src="./images/designer.jpg" alt="дизайнер" width="270" height="260" />
 						<h3 class="team__name">Михаил Ермаков</h3>
-						<p class="team__desk" lang="en">UI Designer</p>
+						<p class="team__descr" lang="en">UI Designer</p>
 						<ul class="social-media">
 							<li class="social-media__item">
 								<a class="social-media__link" href="" target="_blank" rel="noopener noreferrer"
@@ -378,28 +378,26 @@
 	<!--footer-->
 	<footer class="footer">
 		<div class="container container__footer">
-			<div class="footer__contact">
-				<a class="logo" href="WebStudio"> <span class="logo--color">Web</span>Studio</a>
-				<address>
-					<ul class="footer-list">
-						<li class="link link-address">
-							<a class="link-contact address" href="https://goo.gl/maps/sdTWrFby8Wr7bBPv6" target="_blank"
-								rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
-						</li>
-						<li class="link link-address">
-							<a class="link-footer" href="mailto:info@example.com">info@example.com</a>
-						</li>
-						<li class="link">
-							<a class="link-footer contact-link" href="tel:+380961111111"> +38 096 111 11 11</a>
-						</li>
-					</ul>
-				</address>
+			<div>
+				<a class="logo footer__logo" href="WebStudio"> Web<span class="footer__logo--color">Studio</span></a>
+				<ul class="footer__contact">
+					<li class="footer__item">
+						<a class="footer__link footer__link--color" href="https://goo.gl/maps/sdTWrFby8Wr7bBPv6" target="_blank"
+							rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
+					</li>
+					<li class="footer__item">
+						<a class="footer__link" href="mailto:info@example.com">info@example.com</a>
+					</li>
+					<li class="footer__item">
+						<a class="footer__link" href="tel:+380961111111"> +38 096 111 11 11</a>
+					</li>
+				</ul>
 			</div>
-			<div class="footer-social">
-				<p class="slogan-footer">присоединяйтесь</p>
-				<ul class="footer-social-list">
+			<div class="social-media-footer">
+				<p class="slogan">присоединяйтесь</p>
+				<ul  class="social-media">
 					<li class="social-media__item">
-						<a class="social-media__link footer-social-link" href="" target="_blank"
+						<a class="social-media__link social-media__link--color" href="" target="_blank"
 							rel="noopener noreferrer" aria-label="instagram"><svg class="social-media__icon" width="20"
 								height="20">
 								<use href="./images/icons.svg#icon-instagram"></use>
@@ -407,21 +405,21 @@
 						</a>
 					</li>
 					<li class="social-media__item">
-						<a class="social-media__link footer-social-link" href="" target="_blank"
+						<a class="social-media__link social-media__link--color" href="" target="_blank"
 							rel="noopener noreferrer" aria-label="twitter"><svg class="social-media__icon" width="20"
 								height="20">
 								<use href="./images/icons.svg#icon-twitter"></use>
 							</svg></a>
 					</li>
 					<li class="social-media__item">
-						<a class="social-media__link footer-social-link" href="" target="_blank"
+						<a class="social-media__link social-media__link--color" href="" target="_blank"
 							rel="noopener noreferrer" aria-label="facebook"><svg class="social-media__icon" width="20"
 								height="20">
 								<use href="./images/icons.svg#icon-facebook"></use>
 							</svg></a>
 					</li>
 					<li class="social-media__item">
-						<a class="social-media__link footer-social-link" href="" target="_blank"
+						<a class="social-media__link social-media__link--color" href="" target="_blank"
 							rel="noopener noreferrer" aria-label="linkedin"><svg class="social-media__icon" width="20"
 								height="20">
 								<use href="./images/icons.svg#icon-linkedin"></use>
@@ -429,13 +427,13 @@
 					</li>
 				</ul>
 			</div>
-			<form class="form-footer-input">
-				<p class="slogan-footer">Подпишитесь на рассылку</p>
-				<label class="form-label">
-					<input class="form-input" type="email" name="email" placeholder="E-mail" required />
+			<form class="form">
+				<p class="slogan">Подпишитесь на рассылку</p>
+				<label>
+					<input class="form__input" type="email" name="email" placeholder="E-mail" required />
 				</label>
-				<button class="subscription-btn" type="submit">Подписаться
-					<svg class="send" width="24" height="24">
+				<button class="button button--position" type="submit">Подписаться
+					<svg class="button__icon-send" width="24" height="24">
 						<use href="./images/icons.svg#icon-send"></use>
 					</svg>
 				</button>
