@@ -1,0 +1,27 @@
+// utils styles
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+
+
+// base styles
+@import "./base/common";
+@import "./base/reset";
+@import "./base/card-set";
+
+// components styles
+@import "./components/buttons";
+@import "./components/conteiner";
+@import "./components/section";
+@import "./components/socials";
+@import "./components/overlay";
+
+
+// layouts sryles
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/features";
+@import "./layouts/about";
+@import "./layouts/team";
+@import "./layouts/client";
+@import "./layouts/projec";
+
