@@ -1,6 +1,8 @@
 // utils styles
 @import "./utils/variables";
 @import "./utils/visually-hidden";
+@import "./utils/mixins";
+@import "./utils/is-hidden";
 
 
 // base styles
@@ -9,11 +11,17 @@
 @import "./base/card-set";
 
 // components styles
+@import "./components/nav";
+@import "./components/contact";
 @import "./components/buttons";
 @import "./components/conteiner";
 @import "./components/section";
 @import "./components/socials";
 @import "./components/overlay";
+@import "./components/logo";
+@import "./components/slogan";
+@import "./components/filter";
+@import "./components/form/module";
 
 
 // layouts sryles
@@ -24,4 +32,5 @@
 @import "./layouts/team";
 @import "./layouts/client";
 @import "./layouts/projec";
+@import "./layouts/footer";
 

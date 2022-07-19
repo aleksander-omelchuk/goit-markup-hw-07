@@ -1,8 +1,4 @@
 .button {
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 1.88;
-	letter-spacing: 0.06em;
 	width: 200px;
 	height: 50px;
 	margin: auto;
@@ -15,6 +11,9 @@
 	border-radius: 4px;
 	border: none;
 	cursor: pointer;
+
+	@include fonts(700, 16px, 30px, 0.06em);
+
 
     &:hover {
         color: var(--main-background-color);
@@ -43,18 +42,19 @@
 		color: var(--main-background-color);
 		background-color: var(--accent-color);
 		width: 73px;
+		@include width(73px);
 	}
 	&__filter--web{
-		width: 128px;
+		@include width(128px);
 	}
 	&__filter--application {
-		width: 145px;
+		@include width(145px);
 	}
 	&__filter--design {
-		width: 103px;
+		@include width(103px);
 	}
 	&__filter--marketing {
-		width: 130px;
+		@include width(130px);
 	}
 	
 

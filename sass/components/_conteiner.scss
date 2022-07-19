@@ -4,4 +4,10 @@
 	margin-right: auto;
 	padding-left: 15px;
 	padding-right: 15px;
+
+	&__footer {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+	}
 }
