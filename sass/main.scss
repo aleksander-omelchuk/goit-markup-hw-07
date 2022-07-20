@@ -2,35 +2,17 @@
 @import "./utils/variables";
 @import "./utils/visually-hidden";
 @import "./utils/mixins";
+@import "./utils/decimals";
 @import "./utils/is-hidden";
 
-
 // base styles
-@import "./base/common";
-@import "./base/reset";
-@import "./base/card-set";
+@import "./base/base-module";
 
 // components styles
-@import "./components/nav";
-@import "./components/contact";
-@import "./components/buttons";
-@import "./components/conteiner";
-@import "./components/section";
-@import "./components/socials";
-@import "./components/overlay";
-@import "./components/logo";
-@import "./components/slogan";
-@import "./components/filter";
-@import "./components/form/module";
+@import "./components/components-module";
 
 
-// layouts sryles
-@import "./layouts/header";
-@import "./layouts/hero";
-@import "./layouts/features";
-@import "./layouts/about";
-@import "./layouts/team";
-@import "./layouts/client";
-@import "./layouts/projec";
-@import "./layouts/footer";
+// layouts styles
+@import "./layouts/layouts-module";
+
 

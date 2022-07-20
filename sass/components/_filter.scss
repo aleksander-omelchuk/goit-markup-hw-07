@@ -6,4 +6,17 @@
     &--position {
         margin-bottom: 50px;
     }
+
+	& {
+		display: flex;
+		justify-content: center;
+		gap: 8px;
+	
+	}
+	&--position {
+		margin-bottom: 50px;
+	}
+	
 }
+
+
